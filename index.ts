@@ -9,8 +9,8 @@ const app = express();
 app.get('/', async (req: Request, res: Response) => {
   try {
     const data = await resend.emails.send({
-      from: 'onboarding@resend.dev',
-      to: 'delivered@resend.dev',
+      from: 'Acme <onboarding@resend.dev>',
+      to: ['delivered@resend.dev'],
       subject: 'Hello World',
       html: '<strong>it works!</strong>',
     });
