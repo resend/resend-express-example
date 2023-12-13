@@ -10,7 +10,7 @@ app.get('/', async (req, res) => {
   try {
     const data = await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>',
-      to: ['ashispandey138c@gmail.com'],
+      to: ['Youremail@example.com'],
       subject: 'Hello World',
       html: '<strong>it works!</strong>',
     });
