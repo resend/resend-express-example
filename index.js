@@ -1,16 +1,16 @@
-require('dotenv').config()
+
 
 import { Resend } from 'resend';
-import express, { Request, Response } from 'express';
+import express from 'express';
 
-const resend = new Resend('re_123456789');
+const resend = new Resend(!process.env.RESEND_API_KEY);
 const app = express();
 
-app.get('/', async (req: Request, res: Response) => {
+app.get('/', async (req, res) => {
   try {
     const data = await resend.emails.send({
       from: 'Acme <onboarding@resend.dev>',
-      to: ['delivered@resend.dev'],
+      to: ['ashispandey138c@gmail.com'],
       subject: 'Hello World',
       html: '<strong>it works!</strong>',
     });
