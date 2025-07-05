@@ -5,7 +5,7 @@
     "dev": "node index.js"
   },
   "dependencies": {
-    "dotenv": "16.4.4",
+    "dotenv": "17.0.1",
     "express": "4.20.0",
     "resend": "latest"
   },
