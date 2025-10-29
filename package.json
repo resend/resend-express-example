@@ -6,7 +6,7 @@
     "dev": "tsx index.ts"
   },
   "dependencies": {
-    "dotenv": "16.4.4",
+    "dotenv": "17.2.3",
     "express": "5.1.0",
     "resend": "latest"
   },
