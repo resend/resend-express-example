@@ -1,8 +1,9 @@
 {
   "name": "resend-express-example",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "tsx index.ts"
   },
   "dependencies": {
     "dotenv": "16.4.4",
@@ -10,6 +11,8 @@
     "resend": "latest"
   },
   "devDependencies": {
-    "@types/node": "20.11.19"
+    "@types/express": "^4.17.21",
+    "@types/node": "20.11.19",
+    "tsx": "4.20.6"
   }
 }
