@@ -1,3 +1,11 @@
+> [\!IMPORTANT]
+> This repository has been consolidated into the new [resend-examples](https://github.com/resend/resend-examples) monorepo, which contains updated examples for all languages and frameworks.
+>
+> **[View the Express examples here](https://github.com/resend/resend-examples/tree/main/express-resend-examples)**
+
+---
+
+
 # Resend with Express
 
 This example shows how to use Resend with [Express](https://expressjs.com).
