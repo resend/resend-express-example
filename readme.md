@@ -24,15 +24,13 @@ To get the most out of this guide, you’ll need to:
 2. Install dependencies:
 
   ```sh
-npm install
-# or
-yarn
+pnpm install
   ```
 
 3. Run Express locally:
 
   ```sh
-npm run dev
+pnpm dev
   ```
 
 4. Open URL in the browser:

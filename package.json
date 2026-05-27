@@ -2,6 +2,7 @@
   "name": "resend-express-example",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "dev": "tsx index.ts"
   },
